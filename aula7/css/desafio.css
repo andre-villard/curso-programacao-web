@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+
+body{
+    height: 700px;
+    width: 100%;
+    border: 70px solid red;
+    text-align: center;
+}
+
+div.square {
+    width: 33.33%;
+    display: inline-block;
+}
+

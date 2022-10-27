@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  header h1 {
+    text-align: center;
+  }
+  
+  div.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 10px 0;
+  }
+  
+  div.row img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }

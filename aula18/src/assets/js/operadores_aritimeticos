@@ -1,0 +1,28 @@
+// operadores aritiméticos
+//var num1 = 2;
+//var num2 = 2;
+
+var read = require('../../../node_modules/readline-sync');
+var num1 = parseFloat(read.question("qual o primeiro numero?"));
+var num2 = parseFloat(read.question("qual o segundo numero?"))
+
+// // Adição => 2 + 2;
+// console.log(`O resultado é ${num1 + num2}`);
+// // Subtração => 2 - 2;
+// console.log(`O resultado é ${num1 - num2}`);
+// // Multiplicação => 2 * 2;
+// console.log(`O resultado é ${num1 * num2}`);
+// // Divisão => 2 / 2;
+// console.log(`O resultado é ${num1 / num2}`);
+// //resto da divisão
+// console.log(`O resultado é ${num1 % num2}`);
+
+//ordem comum da matemática
+// var expressao = (num1 + num2 * 2)
+// console.log(expressao)
+
+//forçando a soma 
+var expressao = ((num1 + num2) * 2)
+console.log(expressao)
+
+

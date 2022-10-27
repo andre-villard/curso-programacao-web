@@ -1,0 +1,14 @@
+//CONDICIONAIS
+var num1 = 2;
+var num2 = 4;
+
+
+if(num1 > num2){
+    console.log("usuário permitido")
+}
+else if (num1 < num2){
+    console.log("usuario2 permitido")
+}
+else {
+    console.log("FATAL ERRO")
+}
