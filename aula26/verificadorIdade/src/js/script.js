@@ -21,7 +21,7 @@ const verificar = () => {
       img.setAttribute("src", "./assets/img/homem-bebe.jpg")
         } else if (idade > 1 && idade < 10){
             //criança
-            img.setAttribute("src", "./assets/img/homem-crianca.jpg")
+            img.setAttribute("src", "./assets/img/homem-crianca.jpg");
         } else if (idade < 21){
             //jovem 
             img.setAttribute("src", "./assets/img/homem-jovem.jpg")
