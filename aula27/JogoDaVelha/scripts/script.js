@@ -1,4 +1,4 @@
-swindow.addEventListener("DOMContentLoaded", () => {
+window.addEventListener("DOMContentLoaded", () => {
     const tiles = Array.from(document.querySelectorAll(".titles"));
 
     const playerDisplay = document.querySelector(".display-player");
@@ -79,7 +79,7 @@ swindow.addEventListener("DOMContentLoaded", () => {
         }
 
         if (a === b && b === c){
-            roundoWon = true;
+            roundWon = true;
             break;
         }
     }
