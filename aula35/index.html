@@ -1,0 +1,24 @@
+<script>
+  //     const produtos= ["b","b","r","b","r"];
+
+  //     produtosBons = produtos.filter( (el, indice, array) =>{
+  //         return el === "b"
+  //     });
+
+  //     document.write(produtosBons)
+
+  const precos = [220.9, 300.0, 550.0, 1700.0, 50.2];
+
+  const precosDescontados = precos.map((el, indice, array) => {
+    const valor = el - (el * (20 / 100));
+    return valor.toFixed(2);
+  });
+
+//   document.write(precosDescontados);
+
+  const acumulado = ((total, num) =>{
+    return total + num;
+  }, 0);
+
+  document.write(acumulado);
+</script>

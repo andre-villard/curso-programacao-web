@@ -12,16 +12,19 @@
       <h1>Lista de usuários</h1>
     </header>
 
-    <main>
-      <div class="preenchimento">
-        <input type="text" />
-        <button>adicionar</button>
-      </div>
+    <main id="main">
+      <div class="lista">
+        <label for="intemLista">Adicione um item:</label>
+        <input type="text" name="itemLista" id="itemLista" />
 
-      <div class="resultado">
-        <ul>
-            <li></li>
-        </ul>
+        <button onclick="criarLista()">adicionar</button>
+
+        <div class="space"></div>
+
+        <h3>Resultado da lista:</h3>
+        <div class="resultado">
+          <ul></ul>
+        </div>
       </div>
     </main>
 

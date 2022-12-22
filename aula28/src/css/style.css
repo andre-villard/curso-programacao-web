@@ -1,29 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 *{
     padding: 0;
     margin: 0;
     box-sizing: 0;
-    border: solid black 1px;
+    font-family: "Poppins", sans-serif;
 }
 
-header{
-    color: white
-}
-
-html, body{
-    background-color: purple;
+header, footer{
     width: 100%;
-    height: 100%;
+    padding: 10px;
+    background-color: darkviolet;
+    color: aliceblue;
+    text-align: center;
+}
+
+footer{
+    background-color: darkviolet;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
+    background-color: purple;
 
 }
 
-div.preenchimento{
-    background-color: gray;
-    padding: 20px;
+div.space{
+    padding: 15px 0;
+}
 
+main#main{
+    height: 100vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+main, div.lista{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    border-radius: 30px;
+    box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.459);
+
+
+}
+
+label{
+    color: aliceblue;
 }
 
 button{
@@ -31,6 +62,10 @@ button{
     color: white;
     padding: 5px;
     
+}
+
+h3{
+    color: aliceblue;
 }
 
 div.resultado{
