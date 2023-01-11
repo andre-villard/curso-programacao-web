@@ -1,14 +1,15 @@
-*{padding: 0;
+* {
+    padding: 0;
     margin: 0;
-    box-sizing: 0;
-
+    box-sizing: border-box;
 }
 
-div.box{
-   display: flex;
-   flex-direction: row;
-   justify-content: space-evenly;
-    background-color: #d0d0d0;
+div.box {
+    background-color: #D0D0D0;
     padding: 20px;
     border-radius: 8px;
+}
+
+div.card {
+    margin: 10px;
 }
