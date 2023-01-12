@@ -1,0 +1,1 @@
+ document.getElementById("tabela").innerHTML = "<tr>quarta linha</tr>";
